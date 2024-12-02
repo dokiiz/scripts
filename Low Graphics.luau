@@ -1,4 +1,3 @@
-
 -- Low Graphics Script --
 
 if not _G.Ignore then
