@@ -1,11 +1,9 @@
--- LocalScript or Script in Roblox Studio
-local jobId = game.JobId -- Get current server Job ID
-local fileName = "JobID.txt"
+local jobId = game.JobId
+local filePath = "C:\\Users\\landy\\Downloads\\latestinstaller\\bunni-version-3f74e22590714de4\\workspace\\JobID.txt"
 
--- Write the Job ID to a local file
-if writefile then -- Check if writefile is available
-    writefile(fileName, jobId)
-    print("Job ID saved to " .. fileName)
+if writefile then
+    writefile(filePath, jobId)
+    print("Job ID saved to " .. filePath)
 else
     print("writefile not available in this environment.")
 end
