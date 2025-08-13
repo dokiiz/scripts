@@ -1,5 +1,5 @@
 local jobId = game.JobId
-local filePath = "C:\\Users\\landy\\Downloads\\latestinstaller\\bunni-version-3f74e22590714de4\\workspace\\JobID.txt"
+local filePath = "C:\\Users\\landy\\Downloads\\Roblox Info\\Usernames.txt"
 
 if writefile then
     writefile(filePath, jobId)
